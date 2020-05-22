@@ -1,0 +1,33 @@
+.container{
+    margin: 50px 0;
+}
+
+.card{
+    margin: 0 2% !important;
+}
+
+.infected{
+    border: 5px outset rgba(0,0,255,0.5);
+}
+.infected:hover{
+    transform:scale(1.1);
+}
+
+.recovered{
+    border: 5px outset rgba(0,255,0,0.5);
+}
+.recovered:hover{
+    transform:scale(1.1);
+}
+.deaths{
+    border: 5px outset rgba(255,0,0,0.5);
+}
+.deaths:hover{
+    transform:scale(1.1);
+}
+
+@media (max-width:770px){
+    .card{
+        margin:2% 0 !important;
+    }
+}
